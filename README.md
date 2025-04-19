@@ -14,7 +14,7 @@ This system processes a video file to detect and track vehicles, estimating thei
 ---
 🎬 Demo Video
 
-📹 [Click here to view the demo video](https://drive.google.com/file/d/1rpeiLg5Gm1YjeWr4li0w1xTAjXzfbYGu/view?usp=sharing)  
+📹 [Click here to view the demo video](https://drive.google.com/file/d/1rpeiLg5Gm1YjeWr4li0w1xTAjXzfbYGu/view?usp=drive_link)  
 
 ## 🛠️ Features
 
