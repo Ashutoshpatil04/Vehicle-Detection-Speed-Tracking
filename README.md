@@ -12,6 +12,9 @@ A real-time computer vision project that detects vehicles in video footage, trac
 This system processes a video file to detect and track vehicles, estimating their speed based on their displacement across video frames. It displays bounding boxes and speed annotations for each detected vehicle in real time and saves the output as a new video.
 
 ---
+🎬 Demo Video
+
+📹 [Click here to view the demo video](https://drive.google.com/file/d/1rpeiLg5Gm1YjeWr4li0w1xTAjXzfbYGu/view?usp=sharing)  
 
 ## 🛠️ Features
 
