@@ -1,4 +1,3 @@
-Here's a polished and professional `README.md` content for your [Vehicle Detection & Speed Tracking](https://github.com/Ashutoshpatil04/Vehicle-Detection-Speed-Tracking) project:
 
 ---
 
