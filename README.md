@@ -1,87 +1,106 @@
-🚗 Vehicle Detection & Speed Tracking System
+Here's a polished and professional `README.md` content for your [Vehicle Detection & Speed Tracking](https://github.com/Ashutoshpatil04/Vehicle-Detection-Speed-Tracking) project:
+
+---
+
+# 🚗 Vehicle Detection & Speed Tracking System
+
 A real-time computer vision project that detects vehicles in video footage, tracks their movement, and estimates their speed using Python and OpenCV.
 
-📽️ Project Overview
+---
+
+## 📽️ Project Overview
+
 This system processes a video file to detect and track vehicles, estimating their speed based on their displacement across video frames. It displays bounding boxes and speed annotations for each detected vehicle in real time and saves the output as a new video.
 
-🛠️ Features
-🚙 Vehicle Detection using Haar Cascade classifier (myhaar.xml)
+---
 
-🎯 Object Tracking using dlib.correlation_tracker for stable tracking
+## 🛠️ Features
 
-⏱️ Speed Estimation based on frame displacement and pixel-to-meter calibration
+- 🚙 **Vehicle Detection** using Haar Cascade classifier (`myhaar.xml`)
+- 🎯 **Object Tracking** using `dlib.correlation_tracker` for stable tracking
+- ⏱️ **Speed Estimation** based on frame displacement and pixel-to-meter calibration
+- 💾 **Video Output** with real-time overlays and saved output as `outpy.avi`
+- 🔁 **Frame-by-frame Processing** to ensure consistent detection and tracking
 
-💾 Video Output with real-time overlays and saved output as outpy.avi
+---
 
-🔁 Frame-by-frame Processing to ensure consistent detection and tracking
+## 🧰 Technologies Used
 
-🧰 Technologies Used
-Programming Language: Python
+- **Programming Language:** Python
+- **Libraries & Tools:**
+  - `OpenCV` – for video I/O, object detection, drawing
+  - `dlib` – for object tracking
+  - `NumPy` – for distance calculations
+  - `os` – for file path validation
 
-Libraries & Tools:
+---
 
-OpenCV – for video I/O, object detection, drawing
+## 🧮 Speed Estimation Formula
 
-dlib – for object tracking
-
-NumPy – for distance calculations
-
-os – for file path validation
-
-🧮 Speed Estimation Formula
-text
-Copy
-Edit
+```text
 Speed (km/h) = (Displacement in pixels * scale) / time per frame
+```
+
 Where:
+- Scale = pixels per meter (calibrated)
+- Time per frame = 1 / video FPS
 
-Scale = pixels per meter (calibrated)
+---
 
-Time per frame = 1 / video FPS
+## 🗂️ Project Structure
 
-🗂️ Project Structure
-bash
-Copy
-Edit
+```
 ├── cars.mp4               # Input video file
 ├── myhaar.xml             # Haar cascade file for vehicle detection
 ├── speed_tracker.py       # Main Python script
 ├── outpy.avi              # Output video with overlays
-▶️ How to Run
-1. Clone the Repository
-bash
-Copy
-Edit
+```
+
+---
+
+## ▶️ How to Run
+
+### 1. Clone the Repository
+```bash
 git clone https://github.com/Ashutoshpatil04/Vehicle-Detection-Speed-Tracking.git
 cd Vehicle-Detection-Speed-Tracking
-2. Install Dependencies
-bash
-Copy
-Edit
+```
+
+### 2. Install Dependencies
+```bash
 pip install opencv-python dlib numpy
-3. Run the Script
-bash
-Copy
-Edit
+```
+
+### 3. Run the Script
+```bash
 python speed_tracker.py
-Ensure cars.mp4 and myhaar.xml are present in the same directory.
+```
 
-📌 Output
-Bounding boxes drawn around detected vehicles
+Ensure `cars.mp4` and `myhaar.xml` are present in the same directory.
 
-Vehicle speed displayed above each box
+---
 
-Output video saved as outpy.avi
+## 📌 Output
 
-🚧 Limitations & Improvements
-Detection Accuracy: Can be improved using YOLO or SSD instead of Haar cascades.
+- Bounding boxes drawn around detected vehicles
+- Vehicle speed displayed above each box
+- Output video saved as `outpy.avi`
 
-Tracking Consistency: DeepSORT or Kalman filters could provide more robust tracking.
+---
 
-Calibration: Speed estimation accuracy depends on pixel-to-meter scaling and frame rate.
+## 🚧 Limitations & Improvements
 
-👨‍💻 Author
-Ashutosh Patil
-📍 Sandip University, Nashik | B.Tech CSE
-📧 ashutoshpatil817@gmail.com
-🔗 LinkedIn | GitHub
+- **Detection Accuracy**: Can be improved using YOLO or SSD instead of Haar cascades.
+- **Tracking Consistency**: DeepSORT or Kalman filters could provide more robust tracking.
+- **Calibration**: Speed estimation accuracy depends on pixel-to-meter scaling and frame rate.
+
+---
+
+## 👨‍💻 Author
+
+**Ashutosh Patil**  
+📍 Sandip University, Nashik | B.Tech CSE  
+📧 [ashutoshpatil817@gmail.com](mailto:ashutoshpatil817@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/ashutosh-patil-7a90811b5/) | [GitHub](https://github.com/Ashutoshpatil04)
+
+---
